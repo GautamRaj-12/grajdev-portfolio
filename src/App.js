@@ -12,7 +12,22 @@ import Sidebar from './components/sidebar/Sidebar';
 import Testimonials from './components/testimonials/Testimonials';
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <Sidebar />
+      <main className='main'>
+        <Home />
+        <About />
+        <Services />
+        <Resume />
+        <Portfolio />
+        <Pricing />
+        <Testimonials />
+        <Blog />
+        <Contact />
+      </main>
+    </>
+  );
 }
 
 export default App;
